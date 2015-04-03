@@ -1,5 +1,6 @@
 * { padding:0px; border:0px; margin:0px; }
 ::selection { color: #111; background: #678; }
+::-moz-selection { color: #111; background: #ccccff; }
 body { font-size: 12px; font-family: Arial; font-weight: light; }
 
 .container { width: 960px; margin: auto;}

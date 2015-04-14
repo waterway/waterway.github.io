@@ -8,7 +8,6 @@ body { font-size: 12px; font-family: Arial; font-weight: light; }
 .container header .logo { text-align:center; }
 .container .main h3 { font-size: 18px; font-family: Arial; text-align: center; padding-bottom: 20px; padding-top: 20px; }
 .container .main p { padding-bottom: 12px; }
-.container .main .pi {width:800px; }
 .container .main a { color: #000; background: #99f99f; text-decoration: none; }
 .container .main { border-bottom: 1px solid #ccc; padding-bottom: 20px; }
 .container footer { padding-bottom: 80px; }

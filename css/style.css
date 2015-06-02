@@ -6,7 +6,7 @@ body { font-size: 12px; font-family: Arial; font-weight: light; }
 .container { width: 960px; margin: auto;}
 .container header { border-bottom: 1px solid #ccc; }
 .container header .logo { text-align:center; }
-.container .main h2 { font-size: 28px; font-family: Arial; padding-bottom: 30px; border-bottom: 1px dotted #ccc;}
+.container .main h2 { font-size: 28px; font-family: Arial; padding-top: 20px; padding-bottom: 20px; border-bottom: 1px dotted #ccc;}
 .container .main h3 { font-size: 18px; font-family: Arial; text-align: center; padding-bottom: 20px; padding-top: 20px; }
 .container .main p { padding-bottom: 12px; }
 .container .main a { color: #000; background: #99f99f; text-decoration: none; }

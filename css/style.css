@@ -6,6 +6,8 @@ body { font-size: 12px; font-family: Arial; font-weight: light; }
 .container { width: 960px; margin: auto;}
 .container header { border-bottom: 1px solid #ccc; }
 .container header .logo { text-align:center; }
+.container .main .one, .two { padding-top: 10px; padding-bottom: 10px; border-bottom: 1px dotted #ccc;}
+.container .main .one, .two p { font-size: 10px; font-family: Arial; font-weight: italic;}
 .container .main h2 { font-size: 28px; font-family: Arial;}
 .container .main h3 { font-size: 18px; font-family: Arial; text-align: center; padding-bottom: 20px; padding-top: 20px; }
 .container .main p { padding-bottom: 12px; }

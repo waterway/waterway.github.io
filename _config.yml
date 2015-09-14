@@ -1,0 +1,30 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Waterway
+tagline:             The way into the deep blue
+url:                 http://waterway.github.io/
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Mario Grabova
+  url:               https://twitter.com/68756e6168
+  email:             mgrabova@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/waterway

@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Waterway
-tagline:             The way into the deep blue
+tagline:             USMI USEMI APSU
 url:                 http://waterway.github.io/
 paginate:            1
 baseurl:             ""
@@ -28,3 +28,5 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/waterway
+
+pages_list:	{'About':'/about', 'Archive':'/archive', 'PGP':'/pgp'}

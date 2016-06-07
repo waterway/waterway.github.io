@@ -15,7 +15,7 @@ When i first start learning cryptography, i was used to write simple scripts wit
 
 After googling, i found some usefull material on crypto challenges from matasano called <a href="http://cryptopals">Cryptopals</a>. I would suggest everyone that wants to learn even programming to start with the challenges, you will not regret it! There are some other crypto challenges too, like those from <a href="https://www.guardsupport.com/crypto/index.asp">NSA</a> but the Matasano Challenges are focused more in real-time applications.
 
-In the following example i use the Ruby programming language. Lets take the first set and take a look to the challenge 5, Repeating XOR. I picked this challenge because is simple and it can be easy to implement to an application. `The example below doesn't make  an application more secure!!!`. This challenge will only help us just to learn how to use the most simple crypto method to encrypt some text.
+In the following example i use the Ruby programming language. Lets take the first set and take a look to the challenge 5, Repeating XOR. I picked this challenge because is simple and it can be easy to implement to an application. `The example below doesn't make  an applications secure!!!`. This challenge will only help us just to learn how to use the most simple crypto method to encrypt some text.
 
 So, let's start! First we create a simple file, which will have our plain data stored.
 

@@ -8,7 +8,28 @@
 		<meta name="keywords" content="webgl, machine learning" />
 		<meta name="author" content="Mario Grabovaj" />
     <link rel="stylesheet" type="text/css" href="background/base.css" />
-    <link rel="stylesheet" type="text/css" href="background/custom.css" />
+		<link rel="stylesheet" type="text/css" href="background/custom.css" />
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="flightboard/jquery.plugin.js"></script>
+		<script src="flightboard/jquery.flightboard.js"></script>
+
+		<script>
+			$(function () {
+				$('#basicBoard').flightboard({messages: [
+					'CRYPTOGRAPHY', 
+					'ARTIFICIAL INTELLIGENCE', 
+					'SOFTWARE DEVELOPMENT', 
+					'REVERSE ENGINEERING',
+					'MALWARE ANALYSIS'
+				],
+					lettersImage: 'flightboard/flightBoardLarge.png',
+					shadingImages: [
+						'flightboard/flightBoardHigh.png', 
+						'flightboard/flightBoardShad.png'
+					]});
+			});
+			</script>
 		
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
@@ -40,7 +61,8 @@
         </script>
         <div class="content__inner">
           <h2 class="content__title">MARIO GRABOVAJ</h2>
-          <h3 class="content__subtitle">Interested in computers and Artificial intelligence</h2>
+					<!-- <h3 class="content__subtitle"></h2> -->
+						<div id="basicBoard"></div>
         </div>
 			</div>
 		</main>
@@ -48,6 +70,7 @@
 			setTimeout(() => document.body.classList.add('render'), 500);
 		</script>
 		<script src="three.js"></script>
+		<!-- <script src="fliptext.js"></script> -->
 		<script src="background/TweenMax.min.js"></script>
 		<script src="background/app.js"></script>
 	</body>

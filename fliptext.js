@@ -2,7 +2,7 @@
 
   var word = [
     'Cryptography', 
-    'Artificial Intelligence', 
+    'AI', 
     'Software Development', 
     'Reverse Engineering',
     'Malware Analysis'
